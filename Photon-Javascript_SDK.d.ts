@@ -913,6 +913,14 @@ declare module Photon.LoadBalancing {
         constructor(protocol: number, appId: string, appVersion: string);
         /**
             @summary Changes default NameServer address and port before connecting to NameServer.
+            @method Photon.LoadBalancing.LoadBalancingClient#initActor
+            @param {string} userName User Name.
+            @param {number} userId User Id.
+            @param {boolean} isLocal local.
+        */
+        initActor(userName: string): void
+        /**
+            @summary Changes default NameServer address and port before connecting to NameServer.
             @method Photon.LoadBalancing.LoadBalancingClient#setNameServerAddress
             @param {string} address New address and port.
         */
