@@ -31,6 +31,7 @@
 /// <reference path="./shape-nodes.d.ts" />
 /// <reference path="./flax.d.ts" />
 /// <reference path="./gamesparks.d.ts" />
+/// <reference path="./Photon-Javascript_SDK.d.ts" />
 
 declare var DEFAULT_SOUNDS_FOLDER: any;
 declare type FlaxDisplay = any;
